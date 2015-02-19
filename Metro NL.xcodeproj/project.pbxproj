@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F0D7D2115DEAF730099D87E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0D7D2015DEAF730099D87E /* iAd.framework */; };
+		7F0D7D2415DEB3740099D87E /* disClose copia.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2315DEB3740099D87E /* disClose copia.png */; };
+		7F0D7D4715DEBD9E0099D87E /* 01expo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2715DEBD9E0099D87E /* 01expo.jpeg */; };
+		7F0D7D4815DEBD9E0099D87E /* 02lerdo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2815DEBD9E0099D87E /* 02lerdo.jpeg */; };
+		7F0D7D4915DEBD9E0099D87E /* 03eloy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2915DEBD9E0099D87E /* 03eloy.jpeg */; };
+		7F0D7D4A15DEBD9E0099D87E /* 04ygriega.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2A15DEBD9E0099D87E /* 04ygriega.jpeg */; };
+		7F0D7D4B15DEBD9E0099D87E /* 05fundidora.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2B15DEBD9E0099D87E /* 05fundidora.jpeg */; };
+		7F0D7D4C15DEBD9E0099D87E /* 06Felix.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2C15DEBD9E0099D87E /* 06Felix.jpeg */; };
+		7F0D7D4D15DEBD9E0099D87E /* 07golfo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2D15DEBD9E0099D87E /* 07golfo.jpeg */; };
+		7F0D7D4E15DEBD9E0099D87E /* 08cuau.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2E15DEBD9E0099D87E /* 08cuau.jpeg */; };
+		7F0D7D4F15DEBD9E0099D87E /* 09central.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D2F15DEBD9E0099D87E /* 09central.jpeg */; };
+		7F0D7D5015DEBD9E0099D87E /* 10edison.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3015DEBD9E0099D87E /* 10edison.jpeg */; };
+		7F0D7D5115DEBD9E0099D87E /* 11hospital.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3115DEBD9E0099D87E /* 11hospital.jpeg */; };
+		7F0D7D5215DEBD9E0099D87E /* 12simon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3215DEBD9E0099D87E /* 12simon.jpeg */; };
+		7F0D7D5315DEBD9E0099D87E /* 13mitras.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3315DEBD9E0099D87E /* 13mitras.jpeg */; };
+		7F0D7D5415DEBD9E0099D87E /* 15penitenciaria.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3415DEBD9E0099D87E /* 15penitenciaria.jpeg */; };
+		7F0D7D5515DEBD9E0099D87E /* 16aztlan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3515DEBD9E0099D87E /* 16aztlan.jpeg */; };
+		7F0D7D5615DEBD9E0099D87E /* 17unidadmodelo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3615DEBD9E0099D87E /* 17unidadmodelo.jpeg */; };
+		7F0D7D5715DEBD9E0099D87E /* 18sanberna.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3715DEBD9E0099D87E /* 18sanberna.jpeg */; };
+		7F0D7D5815DEBD9E0099D87E /* 19talleres.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3815DEBD9E0099D87E /* 19talleres.jpeg */; };
+		7F0D7D5915DEBD9E0099D87E /* alfonso14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3915DEBD9E0099D87E /* alfonso14.jpeg */; };
+		7F0D7D5A15DEBD9E0099D87E /* 01sendero.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3B15DEBD9E0099D87E /* 01sendero.jpeg */; };
+		7F0D7D5B15DEBD9E0099D87E /* 02tapia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3C15DEBD9E0099D87E /* 02tapia.jpeg */; };
+		7F0D7D5C15DEBD9E0099D87E /* 03sannico.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3D15DEBD9E0099D87E /* 03sannico.jpeg */; };
+		7F0D7D5D15DEBD9E0099D87E /* 04anahuac.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3E15DEBD9E0099D87E /* 04anahuac.jpeg */; };
+		7F0D7D5E15DEBD9E0099D87E /* 05universidad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D3F15DEBD9E0099D87E /* 05universidad.jpeg */; };
+		7F0D7D5F15DEBD9E0099D87E /* 06niñosheroes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D4015DEBD9E0099D87E /* 06niñosheroes.jpeg */; };
+		7F0D7D6015DEBD9E0099D87E /* 07regina.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D4115DEBD9E0099D87E /* 07regina.jpeg */; };
+		7F0D7D6115DEBD9E0099D87E /* 08anaya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D4215DEBD9E0099D87E /* 08anaya.jpeg */; };
+		7F0D7D6215DEBD9E0099D87E /* 09alameda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D4315DEBD9E0099D87E /* 09alameda.jpeg */; };
+		7F0D7D6315DEBD9E0099D87E /* 10fundadores.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D4415DEBD9E0099D87E /* 10fundadores.jpeg */; };
+		7F0D7D6415DEBD9E0099D87E /* 11padremier.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D4515DEBD9E0099D87E /* 11padremier.jpeg */; };
+		7F0D7D6515DEBD9E0099D87E /* 12zaragoza.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D4615DEBD9E0099D87E /* 12zaragoza.jpeg */; };
+		7F0D7D6B15DEE9E10099D87E /* 01carr.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0D7D6A15DEE9E10099D87E /* 01carr.png */; };
+		7F12E20D15890A1800768C5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F12E20C15890A1800768C5D /* UIKit.framework */; };
+		7F12E20F15890A1800768C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F12E20E15890A1800768C5D /* Foundation.framework */; };
+		7F12E21115890A1800768C5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F12E21015890A1800768C5D /* CoreGraphics.framework */; };
+		7F12E21715890A1800768C5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F12E21515890A1800768C5D /* InfoPlist.strings */; };
+		7F12E21915890A1800768C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F12E21815890A1800768C5D /* main.m */; };
+		7F12E21D15890A1800768C5D /* MetroNLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F12E21C15890A1800768C5D /* MetroNLAppDelegate.m */; };
+		7F12E22015890A1800768C5D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F12E21E15890A1800768C5D /* MainStoryboard.storyboard */; };
+		7F12E22315890A1800768C5D /* MetroNLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F12E22215890A1800768C5D /* MetroNLViewController.m */; };
+		7F12E22B15890B7700768C5D /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F12E22A15890B7700768C5D /* PrincipalViewController.m */; };
+		7F12E22D15890B9600768C5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F12E22C15890B9600768C5D /* MapKit.framework */; };
+		7F12E22F15890C1E00768C5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F12E22E15890C1E00768C5D /* CoreLocation.framework */; };
+		7F12E23615890CDE00768C5D /* mapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F12E23515890CDE00768C5D /* mapAnnotation.m */; };
+		7F24B461158B885B005BAEA7 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B460158B885B005BAEA7 /* user.png */; };
+		7F24B464158B88D7005BAEA7 /* user01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B463158B88D7005BAEA7 /* user01.png */; };
+		7F24B466158B8E58005BAEA7 /* met01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B465158B8E58005BAEA7 /* met01.png */; };
+		7F24B468158B8F83005BAEA7 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B467158B8F83005BAEA7 /* back.jpg */; };
+		7F24B46A158B916A005BAEA7 /* title01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B469158B916A005BAEA7 /* title01.png */; };
+		7F24B46C158B9189005BAEA7 /* carretera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B46B158B9189005BAEA7 /* carretera.png */; };
+		7F24B46E158B91A0005BAEA7 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B46D158B91A0005BAEA7 /* bus.png */; };
+		7F24B470158B9236005BAEA7 /* bos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B46F158B9236005BAEA7 /* bos.png */; };
+		7F24B476158B989A005BAEA7 /* estaciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B471158B989A005BAEA7 /* estaciones.png */; };
+		7F24B477158B989A005BAEA7 /* muestra.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B472158B989A005BAEA7 /* muestra.png */; };
+		7F24B478158B989A005BAEA7 /* oculta.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B473158B989A005BAEA7 /* oculta.png */; };
+		7F24B479158B989A005BAEA7 /* simbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B474158B989A005BAEA7 /* simbol.png */; };
+		7F24B47A158B989A005BAEA7 /* ubicacion.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B475158B989A005BAEA7 /* ubicacion.png */; };
+		7F24B47C158B9C8C005BAEA7 /* met012.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B47B158B9C8C005BAEA7 /* met012.png */; };
+		7F24B480158B9DFA005BAEA7 /* ask01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B47D158B9DFA005BAEA7 /* ask01.png */; };
+		7F24B481158B9DFA005BAEA7 /* oc01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B47E158B9DFA005BAEA7 /* oc01.png */; };
+		7F24B482158B9DFA005BAEA7 /* walk01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B47F158B9DFA005BAEA7 /* walk01.png */; };
+		7F24B484158BA4FD005BAEA7 /* inicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B483158BA4FD005BAEA7 /* inicio.png */; };
+		7F24B486158BA6A2005BAEA7 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B485158BA6A2005BAEA7 /* contact.png */; };
+		7F24B488158BA751005BAEA7 /* cont.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B487158BA751005BAEA7 /* cont.png */; };
+		7F24B48E158BA937005BAEA7 /* metrorrey_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B48D158BA937005BAEA7 /* metrorrey_logo.png */; };
+		7F24B490158BA96A005BAEA7 /* metrorreylg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B48F158BA96A005BAEA7 /* metrorreylg.png */; };
+		7F24B492158BAB84005BAEA7 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B491158BAB84005BAEA7 /* add.png */; };
+		7F24B494158BAFC6005BAEA7 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B493158BAFC6005BAEA7 /* info.png */; };
+		7F24B496158BB076005BAEA7 /* fipade.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B495158BB076005BAEA7 /* fipade.png */; };
+		7F24B498158BB0F7005BAEA7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F24B497158BB0F7005BAEA7 /* AddressBook.framework */; };
+		7F24B49B158BB10D005BAEA7 /* ContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24B49A158BB10D005BAEA7 /* ContactoViewController.m */; };
+		7F24B49D158BB710005BAEA7 /* des.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B49C158BB710005BAEA7 /* des.png */; };
+		7F24B49F158BB7BF005BAEA7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F24B49E158BB7BF005BAEA7 /* MessageUI.framework */; };
+		7F24B4A1158BBF28005BAEA7 /* foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B4A0158BBF28005BAEA7 /* foto.jpg */; };
+		7F24B4A9158BF3EF005BAEA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B4A2158BDE5F005BAEA7 /* icon.png */; };
+		7F24B4AA158BF434005BAEA7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B4A4158BED8B005BAEA7 /* Default.png */; };
+		7F6C81E3158A3FA8005A0348 /* Mapann.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C81E2158A3FA8005A0348 /* Mapann.m */; };
+		7F6C81ED158A4FD2005A0348 /* placemark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6C81EB158A4FD2005A0348 /* placemark.png */; };
+		7F6C81EE158A4FD2005A0348 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6C81EC158A4FD2005A0348 /* title.png */; };
+		7F6C81FD158A848F005A0348 /* EstacionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C81FC158A848F005A0348 /* EstacionesViewController.m */; };
+		7FB2A5BD158A2C5B0009365F /* 01expo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A59C158A2C5B0009365F /* 01expo.png */; };
+		7FB2A5BE158A2C5B0009365F /* 02tejada.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A59D158A2C5B0009365F /* 02tejada.png */; };
+		7FB2A5BF158A2C5B0009365F /* 03eloy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A59E158A2C5B0009365F /* 03eloy.png */; };
+		7FB2A5C0158A2C5B0009365F /* 04ygriega.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A59F158A2C5B0009365F /* 04ygriega.png */; };
+		7FB2A5C1158A2C5B0009365F /* 05fundidora.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A0158A2C5B0009365F /* 05fundidora.png */; };
+		7FB2A5C2158A2C5B0009365F /* 06felix.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A1158A2C5B0009365F /* 06felix.png */; };
+		7FB2A5C3158A2C5B0009365F /* 07golfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A2158A2C5B0009365F /* 07golfo.png */; };
+		7FB2A5C4158A2C5B0009365F /* 08cuauhtemoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A3158A2C5B0009365F /* 08cuauhtemoc.png */; };
+		7FB2A5C5158A2C5B0009365F /* 09central.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A4158A2C5B0009365F /* 09central.png */; };
+		7FB2A5C6158A2C5B0009365F /* 10edison.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A5158A2C5B0009365F /* 10edison.png */; };
+		7FB2A5C7158A2C5B0009365F /* 10mitras.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A6158A2C5B0009365F /* 10mitras.png */; };
+		7FB2A5C8158A2C5B0009365F /* 11hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A7158A2C5B0009365F /* 11hospital.png */; };
+		7FB2A5C9158A2C5B0009365F /* 11reyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A8158A2C5B0009365F /* 11reyes.png */; };
+		7FB2A5CA158A2C5B0009365F /* 12bolivar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5A9158A2C5B0009365F /* 12bolivar.png */; };
+		7FB2A5CB158A2C5B0009365F /* 12penitenciaria.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5AA158A2C5B0009365F /* 12penitenciaria.png */; };
+		7FB2A5CC158A2C5B0009365F /* 13aztlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5AB158A2C5B0009365F /* 13aztlan.png */; };
+		7FB2A5CD158A2C5B0009365F /* 14modelo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5AC158A2C5B0009365F /* 14modelo.png */; };
+		7FB2A5CE158A2C5B0009365F /* 15sanbernabe.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5AD158A2C5B0009365F /* 15sanbernabe.png */; };
+		7FB2A5CF158A2C5B0009365F /* 16talleres.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5AE158A2C5B0009365F /* 16talleres.png */; };
+		7FB2A5D0158A2C5B0009365F /* L201sendero.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B0158A2C5B0009365F /* L201sendero.png */; };
+		7FB2A5D1158A2C5B0009365F /* L202tapia.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B1158A2C5B0009365F /* L202tapia.png */; };
+		7FB2A5D2158A2C5B0009365F /* L203sannicolas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B2158A2C5B0009365F /* L203sannicolas.png */; };
+		7FB2A5D3158A2C5B0009365F /* L204anahuac.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B3158A2C5B0009365F /* L204anahuac.png */; };
+		7FB2A5D4158A2C5B0009365F /* L205universidad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B4158A2C5B0009365F /* L205universidad.png */; };
+		7FB2A5D5158A2C5B0009365F /* L206heroes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B5158A2C5B0009365F /* L206heroes.png */; };
+		7FB2A5D6158A2C5B0009365F /* L207regina.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B6158A2C5B0009365F /* L207regina.png */; };
+		7FB2A5D7158A2C5B0009365F /* L208anaya.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B7158A2C5B0009365F /* L208anaya.png */; };
+		7FB2A5D8158A2C5B0009365F /* L209cuauthemoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B8158A2C5B0009365F /* L209cuauthemoc.png */; };
+		7FB2A5D9158A2C5B0009365F /* L210alameda.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5B9158A2C5B0009365F /* L210alameda.png */; };
+		7FB2A5DA158A2C5B0009365F /* L211fundadores.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5BA158A2C5B0009365F /* L211fundadores.png */; };
+		7FB2A5DB158A2C5B0009365F /* L212padremier.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5BB158A2C5B0009365F /* L212padremier.png */; };
+		7FB2A5DC158A2C5B0009365F /* L213geranzaragoza.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB2A5BC158A2C5B0009365F /* L213geranzaragoza.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F0D7D2015DEAF730099D87E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7F0D7D2315DEB3740099D87E /* disClose copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disClose copia.png"; sourceTree = "<group>"; };
+		7F0D7D2715DEBD9E0099D87E /* 01expo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01expo.jpeg; sourceTree = "<group>"; };
+		7F0D7D2815DEBD9E0099D87E /* 02lerdo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02lerdo.jpeg; sourceTree = "<group>"; };
+		7F0D7D2915DEBD9E0099D87E /* 03eloy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03eloy.jpeg; sourceTree = "<group>"; };
+		7F0D7D2A15DEBD9E0099D87E /* 04ygriega.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04ygriega.jpeg; sourceTree = "<group>"; };
+		7F0D7D2B15DEBD9E0099D87E /* 05fundidora.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05fundidora.jpeg; sourceTree = "<group>"; };
+		7F0D7D2C15DEBD9E0099D87E /* 06Felix.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06Felix.jpeg; sourceTree = "<group>"; };
+		7F0D7D2D15DEBD9E0099D87E /* 07golfo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07golfo.jpeg; sourceTree = "<group>"; };
+		7F0D7D2E15DEBD9E0099D87E /* 08cuau.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08cuau.jpeg; sourceTree = "<group>"; };
+		7F0D7D2F15DEBD9E0099D87E /* 09central.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09central.jpeg; sourceTree = "<group>"; };
+		7F0D7D3015DEBD9E0099D87E /* 10edison.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10edison.jpeg; sourceTree = "<group>"; };
+		7F0D7D3115DEBD9E0099D87E /* 11hospital.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11hospital.jpeg; sourceTree = "<group>"; };
+		7F0D7D3215DEBD9E0099D87E /* 12simon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12simon.jpeg; sourceTree = "<group>"; };
+		7F0D7D3315DEBD9E0099D87E /* 13mitras.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13mitras.jpeg; sourceTree = "<group>"; };
+		7F0D7D3415DEBD9E0099D87E /* 15penitenciaria.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15penitenciaria.jpeg; sourceTree = "<group>"; };
+		7F0D7D3515DEBD9E0099D87E /* 16aztlan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16aztlan.jpeg; sourceTree = "<group>"; };
+		7F0D7D3615DEBD9E0099D87E /* 17unidadmodelo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17unidadmodelo.jpeg; sourceTree = "<group>"; };
+		7F0D7D3715DEBD9E0099D87E /* 18sanberna.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18sanberna.jpeg; sourceTree = "<group>"; };
+		7F0D7D3815DEBD9E0099D87E /* 19talleres.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19talleres.jpeg; sourceTree = "<group>"; };
+		7F0D7D3915DEBD9E0099D87E /* alfonso14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alfonso14.jpeg; sourceTree = "<group>"; };
+		7F0D7D3B15DEBD9E0099D87E /* 01sendero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01sendero.jpeg; sourceTree = "<group>"; };
+		7F0D7D3C15DEBD9E0099D87E /* 02tapia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02tapia.jpeg; sourceTree = "<group>"; };
+		7F0D7D3D15DEBD9E0099D87E /* 03sannico.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03sannico.jpeg; sourceTree = "<group>"; };
+		7F0D7D3E15DEBD9E0099D87E /* 04anahuac.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04anahuac.jpeg; sourceTree = "<group>"; };
+		7F0D7D3F15DEBD9E0099D87E /* 05universidad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05universidad.jpeg; sourceTree = "<group>"; };
+		7F0D7D4015DEBD9E0099D87E /* 06niñosheroes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06niñosheroes.jpeg"; sourceTree = "<group>"; };
+		7F0D7D4115DEBD9E0099D87E /* 07regina.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07regina.jpeg; sourceTree = "<group>"; };
+		7F0D7D4215DEBD9E0099D87E /* 08anaya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08anaya.jpeg; sourceTree = "<group>"; };
+		7F0D7D4315DEBD9E0099D87E /* 09alameda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09alameda.jpeg; sourceTree = "<group>"; };
+		7F0D7D4415DEBD9E0099D87E /* 10fundadores.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10fundadores.jpeg; sourceTree = "<group>"; };
+		7F0D7D4515DEBD9E0099D87E /* 11padremier.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11padremier.jpeg; sourceTree = "<group>"; };
+		7F0D7D4615DEBD9E0099D87E /* 12zaragoza.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12zaragoza.jpeg; sourceTree = "<group>"; };
+		7F0D7D6A15DEE9E10099D87E /* 01carr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01carr.png; sourceTree = "<group>"; };
+		7F12E20815890A1800768C5D /* Metro NL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metro NL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F12E20C15890A1800768C5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F12E20E15890A1800768C5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F12E21015890A1800768C5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F12E21415890A1800768C5D /* Metro NL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Metro NL-Info.plist"; sourceTree = "<group>"; };
+		7F12E21615890A1800768C5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F12E21815890A1800768C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F12E21A15890A1800768C5D /* Metro NL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Metro NL-Prefix.pch"; sourceTree = "<group>"; };
+		7F12E21B15890A1800768C5D /* MetroNLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetroNLAppDelegate.h; sourceTree = "<group>"; };
+		7F12E21C15890A1800768C5D /* MetroNLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroNLAppDelegate.m; sourceTree = "<group>"; };
+		7F12E21F15890A1800768C5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7F12E22115890A1800768C5D /* MetroNLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetroNLViewController.h; sourceTree = "<group>"; };
+		7F12E22215890A1800768C5D /* MetroNLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroNLViewController.m; sourceTree = "<group>"; };
+		7F12E22915890B7700768C5D /* PrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		7F12E22A15890B7700768C5D /* PrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		7F12E22C15890B9600768C5D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7F12E22E15890C1E00768C5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7F12E23415890CDE00768C5D /* mapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapAnnotation.h; sourceTree = "<group>"; };
+		7F12E23515890CDE00768C5D /* mapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapAnnotation.m; sourceTree = "<group>"; };
+		7F24B460158B885B005BAEA7 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		7F24B463158B88D7005BAEA7 /* user01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user01.png; sourceTree = "<group>"; };
+		7F24B465158B8E58005BAEA7 /* met01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = met01.png; sourceTree = "<group>"; };
+		7F24B467158B8F83005BAEA7 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		7F24B469158B916A005BAEA7 /* title01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title01.png; sourceTree = "<group>"; };
+		7F24B46B158B9189005BAEA7 /* carretera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carretera.png; sourceTree = "<group>"; };
+		7F24B46D158B91A0005BAEA7 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		7F24B46F158B9236005BAEA7 /* bos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bos.png; sourceTree = "<group>"; };
+		7F24B471158B989A005BAEA7 /* estaciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = estaciones.png; sourceTree = "<group>"; };
+		7F24B472158B989A005BAEA7 /* muestra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muestra.png; sourceTree = "<group>"; };
+		7F24B473158B989A005BAEA7 /* oculta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oculta.png; sourceTree = "<group>"; };
+		7F24B474158B989A005BAEA7 /* simbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simbol.png; sourceTree = "<group>"; };
+		7F24B475158B989A005BAEA7 /* ubicacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ubicacion.png; sourceTree = "<group>"; };
+		7F24B47B158B9C8C005BAEA7 /* met012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = met012.png; sourceTree = "<group>"; };
+		7F24B47D158B9DFA005BAEA7 /* ask01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ask01.png; sourceTree = "<group>"; };
+		7F24B47E158B9DFA005BAEA7 /* oc01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oc01.png; sourceTree = "<group>"; };
+		7F24B47F158B9DFA005BAEA7 /* walk01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walk01.png; sourceTree = "<group>"; };
+		7F24B483158BA4FD005BAEA7 /* inicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inicio.png; sourceTree = "<group>"; };
+		7F24B485158BA6A2005BAEA7 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		7F24B487158BA751005BAEA7 /* cont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cont.png; sourceTree = "<group>"; };
+		7F24B48D158BA937005BAEA7 /* metrorrey_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrorrey_logo.png; sourceTree = "<group>"; };
+		7F24B48F158BA96A005BAEA7 /* metrorreylg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrorreylg.png; sourceTree = "<group>"; };
+		7F24B491158BAB84005BAEA7 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		7F24B493158BAFC6005BAEA7 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		7F24B495158BB076005BAEA7 /* fipade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fipade.png; sourceTree = "<group>"; };
+		7F24B497158BB0F7005BAEA7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7F24B499158BB10D005BAEA7 /* ContactoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactoViewController.h; sourceTree = "<group>"; };
+		7F24B49A158BB10D005BAEA7 /* ContactoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactoViewController.m; sourceTree = "<group>"; };
+		7F24B49C158BB710005BAEA7 /* des.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = des.png; sourceTree = "<group>"; };
+		7F24B49E158BB7BF005BAEA7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7F24B4A0158BBF28005BAEA7 /* foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto.jpg; sourceTree = "<group>"; };
+		7F24B4A2158BDE5F005BAEA7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7F24B4A4158BED8B005BAEA7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F6C81E1158A3FA8005A0348 /* Mapann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapann.h; sourceTree = "<group>"; };
+		7F6C81E2158A3FA8005A0348 /* Mapann.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapann.m; sourceTree = "<group>"; };
+		7F6C81EB158A4FD2005A0348 /* placemark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placemark.png; sourceTree = "<group>"; };
+		7F6C81EC158A4FD2005A0348 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		7F6C81FB158A848F005A0348 /* EstacionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstacionesViewController.h; sourceTree = "<group>"; };
+		7F6C81FC158A848F005A0348 /* EstacionesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstacionesViewController.m; sourceTree = "<group>"; };
+		7FB2A59C158A2C5B0009365F /* 01expo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01expo.png; sourceTree = "<group>"; };
+		7FB2A59D158A2C5B0009365F /* 02tejada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02tejada.png; sourceTree = "<group>"; };
+		7FB2A59E158A2C5B0009365F /* 03eloy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03eloy.png; sourceTree = "<group>"; };
+		7FB2A59F158A2C5B0009365F /* 04ygriega.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04ygriega.png; sourceTree = "<group>"; };
+		7FB2A5A0158A2C5B0009365F /* 05fundidora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05fundidora.png; sourceTree = "<group>"; };
+		7FB2A5A1158A2C5B0009365F /* 06felix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06felix.png; sourceTree = "<group>"; };
+		7FB2A5A2158A2C5B0009365F /* 07golfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07golfo.png; sourceTree = "<group>"; };
+		7FB2A5A3158A2C5B0009365F /* 08cuauhtemoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08cuauhtemoc.png; sourceTree = "<group>"; };
+		7FB2A5A4158A2C5B0009365F /* 09central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09central.png; sourceTree = "<group>"; };
+		7FB2A5A5158A2C5B0009365F /* 10edison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10edison.png; sourceTree = "<group>"; };
+		7FB2A5A6158A2C5B0009365F /* 10mitras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10mitras.png; sourceTree = "<group>"; };
+		7FB2A5A7158A2C5B0009365F /* 11hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11hospital.png; sourceTree = "<group>"; };
+		7FB2A5A8158A2C5B0009365F /* 11reyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11reyes.png; sourceTree = "<group>"; };
+		7FB2A5A9158A2C5B0009365F /* 12bolivar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12bolivar.png; sourceTree = "<group>"; };
+		7FB2A5AA158A2C5B0009365F /* 12penitenciaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12penitenciaria.png; sourceTree = "<group>"; };
+		7FB2A5AB158A2C5B0009365F /* 13aztlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13aztlan.png; sourceTree = "<group>"; };
+		7FB2A5AC158A2C5B0009365F /* 14modelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14modelo.png; sourceTree = "<group>"; };
+		7FB2A5AD158A2C5B0009365F /* 15sanbernabe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15sanbernabe.png; sourceTree = "<group>"; };
+		7FB2A5AE158A2C5B0009365F /* 16talleres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16talleres.png; sourceTree = "<group>"; };
+		7FB2A5B0158A2C5B0009365F /* L201sendero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L201sendero.png; sourceTree = "<group>"; };
+		7FB2A5B1158A2C5B0009365F /* L202tapia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L202tapia.png; sourceTree = "<group>"; };
+		7FB2A5B2158A2C5B0009365F /* L203sannicolas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L203sannicolas.png; sourceTree = "<group>"; };
+		7FB2A5B3158A2C5B0009365F /* L204anahuac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L204anahuac.png; sourceTree = "<group>"; };
+		7FB2A5B4158A2C5B0009365F /* L205universidad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L205universidad.png; sourceTree = "<group>"; };
+		7FB2A5B5158A2C5B0009365F /* L206heroes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L206heroes.png; sourceTree = "<group>"; };
+		7FB2A5B6158A2C5B0009365F /* L207regina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L207regina.png; sourceTree = "<group>"; };
+		7FB2A5B7158A2C5B0009365F /* L208anaya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L208anaya.png; sourceTree = "<group>"; };
+		7FB2A5B8158A2C5B0009365F /* L209cuauthemoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L209cuauthemoc.png; sourceTree = "<group>"; };
+		7FB2A5B9158A2C5B0009365F /* L210alameda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L210alameda.png; sourceTree = "<group>"; };
+		7FB2A5BA158A2C5B0009365F /* L211fundadores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L211fundadores.png; sourceTree = "<group>"; };
+		7FB2A5BB158A2C5B0009365F /* L212padremier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L212padremier.png; sourceTree = "<group>"; };
+		7FB2A5BC158A2C5B0009365F /* L213geranzaragoza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L213geranzaragoza.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F12E20515890A1800768C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0D7D2115DEAF730099D87E /* iAd.framework in Frameworks */,
+				7F24B49F158BB7BF005BAEA7 /* MessageUI.framework in Frameworks */,
+				7F24B498158BB0F7005BAEA7 /* AddressBook.framework in Frameworks */,
+				7F12E22F15890C1E00768C5D /* CoreLocation.framework in Frameworks */,
+				7F12E22D15890B9600768C5D /* MapKit.framework in Frameworks */,
+				7F12E20D15890A1800768C5D /* UIKit.framework in Frameworks */,
+				7F12E20F15890A1800768C5D /* Foundation.framework in Frameworks */,
+				7F12E21115890A1800768C5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F0D7D2515DEBD9E0099D87E /* MetroStage */ = {
+			isa = PBXGroup;
+			children = (
+				7F0D7D2615DEBD9E0099D87E /* linea01 */,
+				7F0D7D3A15DEBD9E0099D87E /* linea02 */,
+			);
+			path = MetroStage;
+			sourceTree = "<group>";
+		};
+		7F0D7D2615DEBD9E0099D87E /* linea01 */ = {
+			isa = PBXGroup;
+			children = (
+				7F0D7D2715DEBD9E0099D87E /* 01expo.jpeg */,
+				7F0D7D2815DEBD9E0099D87E /* 02lerdo.jpeg */,
+				7F0D7D2915DEBD9E0099D87E /* 03eloy.jpeg */,
+				7F0D7D2A15DEBD9E0099D87E /* 04ygriega.jpeg */,
+				7F0D7D2B15DEBD9E0099D87E /* 05fundidora.jpeg */,
+				7F0D7D2C15DEBD9E0099D87E /* 06Felix.jpeg */,
+				7F0D7D2D15DEBD9E0099D87E /* 07golfo.jpeg */,
+				7F0D7D2E15DEBD9E0099D87E /* 08cuau.jpeg */,
+				7F0D7D2F15DEBD9E0099D87E /* 09central.jpeg */,
+				7F0D7D3015DEBD9E0099D87E /* 10edison.jpeg */,
+				7F0D7D3115DEBD9E0099D87E /* 11hospital.jpeg */,
+				7F0D7D3215DEBD9E0099D87E /* 12simon.jpeg */,
+				7F0D7D3315DEBD9E0099D87E /* 13mitras.jpeg */,
+				7F0D7D3415DEBD9E0099D87E /* 15penitenciaria.jpeg */,
+				7F0D7D3515DEBD9E0099D87E /* 16aztlan.jpeg */,
+				7F0D7D3615DEBD9E0099D87E /* 17unidadmodelo.jpeg */,
+				7F0D7D3715DEBD9E0099D87E /* 18sanberna.jpeg */,
+				7F0D7D3815DEBD9E0099D87E /* 19talleres.jpeg */,
+				7F0D7D3915DEBD9E0099D87E /* alfonso14.jpeg */,
+			);
+			path = linea01;
+			sourceTree = "<group>";
+		};
+		7F0D7D3A15DEBD9E0099D87E /* linea02 */ = {
+			isa = PBXGroup;
+			children = (
+				7F0D7D3B15DEBD9E0099D87E /* 01sendero.jpeg */,
+				7F0D7D3C15DEBD9E0099D87E /* 02tapia.jpeg */,
+				7F0D7D3D15DEBD9E0099D87E /* 03sannico.jpeg */,
+				7F0D7D3E15DEBD9E0099D87E /* 04anahuac.jpeg */,
+				7F0D7D3F15DEBD9E0099D87E /* 05universidad.jpeg */,
+				7F0D7D4015DEBD9E0099D87E /* 06niñosheroes.jpeg */,
+				7F0D7D4115DEBD9E0099D87E /* 07regina.jpeg */,
+				7F0D7D4215DEBD9E0099D87E /* 08anaya.jpeg */,
+				7F0D7D4315DEBD9E0099D87E /* 09alameda.jpeg */,
+				7F0D7D4415DEBD9E0099D87E /* 10fundadores.jpeg */,
+				7F0D7D4515DEBD9E0099D87E /* 11padremier.jpeg */,
+				7F0D7D4615DEBD9E0099D87E /* 12zaragoza.jpeg */,
+			);
+			path = linea02;
+			sourceTree = "<group>";
+		};
+		7F12E1FD15890A1800768C5D = {
+			isa = PBXGroup;
+			children = (
+				7F0D7D2015DEAF730099D87E /* iAd.framework */,
+				7F24B4A4158BED8B005BAEA7 /* Default.png */,
+				7F24B4A2158BDE5F005BAEA7 /* icon.png */,
+				7F24B49E158BB7BF005BAEA7 /* MessageUI.framework */,
+				7F24B499158BB10D005BAEA7 /* ContactoViewController.h */,
+				7F24B49A158BB10D005BAEA7 /* ContactoViewController.m */,
+				7F24B497158BB0F7005BAEA7 /* AddressBook.framework */,
+				7F6C81FB158A848F005A0348 /* EstacionesViewController.h */,
+				7F6C81FC158A848F005A0348 /* EstacionesViewController.m */,
+				7F6C81EA158A4FD2005A0348 /* img */,
+				7F6C81E1158A3FA8005A0348 /* Mapann.h */,
+				7F6C81E2158A3FA8005A0348 /* Mapann.m */,
+				7FB2A59A158A2C5B0009365F /* red Metro NL */,
+				7F12E23415890CDE00768C5D /* mapAnnotation.h */,
+				7F12E23515890CDE00768C5D /* mapAnnotation.m */,
+				7F12E22E15890C1E00768C5D /* CoreLocation.framework */,
+				7F12E22C15890B9600768C5D /* MapKit.framework */,
+				7F12E22915890B7700768C5D /* PrincipalViewController.h */,
+				7F12E22A15890B7700768C5D /* PrincipalViewController.m */,
+				7F12E21215890A1800768C5D /* Metro NL */,
+				7F12E20B15890A1800768C5D /* Frameworks */,
+				7F12E20915890A1800768C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F12E20915890A1800768C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F12E20815890A1800768C5D /* Metro NL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F12E20B15890A1800768C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F12E20C15890A1800768C5D /* UIKit.framework */,
+				7F12E20E15890A1800768C5D /* Foundation.framework */,
+				7F12E21015890A1800768C5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F12E21215890A1800768C5D /* Metro NL */ = {
+			isa = PBXGroup;
+			children = (
+				7F12E21B15890A1800768C5D /* MetroNLAppDelegate.h */,
+				7F12E21C15890A1800768C5D /* MetroNLAppDelegate.m */,
+				7F12E21E15890A1800768C5D /* MainStoryboard.storyboard */,
+				7F12E22115890A1800768C5D /* MetroNLViewController.h */,
+				7F12E22215890A1800768C5D /* MetroNLViewController.m */,
+				7F12E21315890A1800768C5D /* Supporting Files */,
+			);
+			path = "Metro NL";
+			sourceTree = "<group>";
+		};
+		7F12E21315890A1800768C5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F12E21415890A1800768C5D /* Metro NL-Info.plist */,
+				7F12E21515890A1800768C5D /* InfoPlist.strings */,
+				7F12E21815890A1800768C5D /* main.m */,
+				7F12E21A15890A1800768C5D /* Metro NL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F6C81EA158A4FD2005A0348 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				7F0D7D6A15DEE9E10099D87E /* 01carr.png */,
+				7F0D7D2515DEBD9E0099D87E /* MetroStage */,
+				7F0D7D2315DEB3740099D87E /* disClose copia.png */,
+				7F24B4A0158BBF28005BAEA7 /* foto.jpg */,
+				7F24B49C158BB710005BAEA7 /* des.png */,
+				7F24B493158BAFC6005BAEA7 /* info.png */,
+				7F24B48D158BA937005BAEA7 /* metrorrey_logo.png */,
+				7F24B483158BA4FD005BAEA7 /* inicio.png */,
+				7F24B47B158B9C8C005BAEA7 /* met012.png */,
+				7F24B471158B989A005BAEA7 /* estaciones.png */,
+				7F24B472158B989A005BAEA7 /* muestra.png */,
+				7F24B473158B989A005BAEA7 /* oculta.png */,
+				7F24B474158B989A005BAEA7 /* simbol.png */,
+				7F24B475158B989A005BAEA7 /* ubicacion.png */,
+				7F24B485158BA6A2005BAEA7 /* contact.png */,
+				7F24B465158B8E58005BAEA7 /* met01.png */,
+				7F24B463158B88D7005BAEA7 /* user01.png */,
+				7F24B469158B916A005BAEA7 /* title01.png */,
+				7F24B491158BAB84005BAEA7 /* add.png */,
+				7F24B47D158B9DFA005BAEA7 /* ask01.png */,
+				7F24B48F158BA96A005BAEA7 /* metrorreylg.png */,
+				7F24B47E158B9DFA005BAEA7 /* oc01.png */,
+				7F24B495158BB076005BAEA7 /* fipade.png */,
+				7F24B47F158B9DFA005BAEA7 /* walk01.png */,
+				7F24B487158BA751005BAEA7 /* cont.png */,
+				7F24B460158B885B005BAEA7 /* user.png */,
+				7F24B46F158B9236005BAEA7 /* bos.png */,
+				7F6C81EB158A4FD2005A0348 /* placemark.png */,
+				7F24B46D158B91A0005BAEA7 /* bus.png */,
+				7F24B46B158B9189005BAEA7 /* carretera.png */,
+				7F6C81EC158A4FD2005A0348 /* title.png */,
+				7F24B467158B8F83005BAEA7 /* back.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		7FB2A59A158A2C5B0009365F /* red Metro NL */ = {
+			isa = PBXGroup;
+			children = (
+				7FB2A59B158A2C5B0009365F /* L01 */,
+				7FB2A5AF158A2C5B0009365F /* L02 */,
+			);
+			path = "red Metro NL";
+			sourceTree = "<group>";
+		};
+		7FB2A59B158A2C5B0009365F /* L01 */ = {
+			isa = PBXGroup;
+			children = (
+				7FB2A59C158A2C5B0009365F /* 01expo.png */,
+				7FB2A59D158A2C5B0009365F /* 02tejada.png */,
+				7FB2A59E158A2C5B0009365F /* 03eloy.png */,
+				7FB2A59F158A2C5B0009365F /* 04ygriega.png */,
+				7FB2A5A0158A2C5B0009365F /* 05fundidora.png */,
+				7FB2A5A1158A2C5B0009365F /* 06felix.png */,
+				7FB2A5A2158A2C5B0009365F /* 07golfo.png */,
+				7FB2A5A3158A2C5B0009365F /* 08cuauhtemoc.png */,
+				7FB2A5A4158A2C5B0009365F /* 09central.png */,
+				7FB2A5A5158A2C5B0009365F /* 10edison.png */,
+				7FB2A5A6158A2C5B0009365F /* 10mitras.png */,
+				7FB2A5A7158A2C5B0009365F /* 11hospital.png */,
+				7FB2A5A8158A2C5B0009365F /* 11reyes.png */,
+				7FB2A5A9158A2C5B0009365F /* 12bolivar.png */,
+				7FB2A5AA158A2C5B0009365F /* 12penitenciaria.png */,
+				7FB2A5AB158A2C5B0009365F /* 13aztlan.png */,
+				7FB2A5AC158A2C5B0009365F /* 14modelo.png */,
+				7FB2A5AD158A2C5B0009365F /* 15sanbernabe.png */,
+				7FB2A5AE158A2C5B0009365F /* 16talleres.png */,
+			);
+			path = L01;
+			sourceTree = "<group>";
+		};
+		7FB2A5AF158A2C5B0009365F /* L02 */ = {
+			isa = PBXGroup;
+			children = (
+				7FB2A5B0158A2C5B0009365F /* L201sendero.png */,
+				7FB2A5B1158A2C5B0009365F /* L202tapia.png */,
+				7FB2A5B2158A2C5B0009365F /* L203sannicolas.png */,
+				7FB2A5B3158A2C5B0009365F /* L204anahuac.png */,
+				7FB2A5B4158A2C5B0009365F /* L205universidad.png */,
+				7FB2A5B5158A2C5B0009365F /* L206heroes.png */,
+				7FB2A5B6158A2C5B0009365F /* L207regina.png */,
+				7FB2A5B7158A2C5B0009365F /* L208anaya.png */,
+				7FB2A5B8158A2C5B0009365F /* L209cuauthemoc.png */,
+				7FB2A5B9158A2C5B0009365F /* L210alameda.png */,
+				7FB2A5BA158A2C5B0009365F /* L211fundadores.png */,
+				7FB2A5BB158A2C5B0009365F /* L212padremier.png */,
+				7FB2A5BC158A2C5B0009365F /* L213geranzaragoza.png */,
+			);
+			path = L02;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F12E20715890A1800768C5D /* Metro NL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F12E22615890A1800768C5D /* Build configuration list for PBXNativeTarget "Metro NL" */;
+			buildPhases = (
+				7F12E20415890A1800768C5D /* Sources */,
+				7F12E20515890A1800768C5D /* Frameworks */,
+				7F12E20615890A1800768C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metro NL";
+			productName = "Metro NL";
+			productReference = 7F12E20815890A1800768C5D /* Metro NL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F12E1FF15890A1800768C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MetroNL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ASTA;
+			};
+			buildConfigurationList = 7F12E20215890A1800768C5D /* Build configuration list for PBXProject "Metro NL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F12E1FD15890A1800768C5D;
+			productRefGroup = 7F12E20915890A1800768C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F12E20715890A1800768C5D /* Metro NL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F12E20615890A1800768C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F12E21715890A1800768C5D /* InfoPlist.strings in Resources */,
+				7F12E22015890A1800768C5D /* MainStoryboard.storyboard in Resources */,
+				7FB2A5BD158A2C5B0009365F /* 01expo.png in Resources */,
+				7FB2A5BE158A2C5B0009365F /* 02tejada.png in Resources */,
+				7FB2A5BF158A2C5B0009365F /* 03eloy.png in Resources */,
+				7FB2A5C0158A2C5B0009365F /* 04ygriega.png in Resources */,
+				7FB2A5C1158A2C5B0009365F /* 05fundidora.png in Resources */,
+				7FB2A5C2158A2C5B0009365F /* 06felix.png in Resources */,
+				7FB2A5C3158A2C5B0009365F /* 07golfo.png in Resources */,
+				7FB2A5C4158A2C5B0009365F /* 08cuauhtemoc.png in Resources */,
+				7FB2A5C5158A2C5B0009365F /* 09central.png in Resources */,
+				7FB2A5C6158A2C5B0009365F /* 10edison.png in Resources */,
+				7FB2A5C7158A2C5B0009365F /* 10mitras.png in Resources */,
+				7FB2A5C8158A2C5B0009365F /* 11hospital.png in Resources */,
+				7FB2A5C9158A2C5B0009365F /* 11reyes.png in Resources */,
+				7FB2A5CA158A2C5B0009365F /* 12bolivar.png in Resources */,
+				7FB2A5CB158A2C5B0009365F /* 12penitenciaria.png in Resources */,
+				7FB2A5CC158A2C5B0009365F /* 13aztlan.png in Resources */,
+				7FB2A5CD158A2C5B0009365F /* 14modelo.png in Resources */,
+				7FB2A5CE158A2C5B0009365F /* 15sanbernabe.png in Resources */,
+				7FB2A5CF158A2C5B0009365F /* 16talleres.png in Resources */,
+				7FB2A5D0158A2C5B0009365F /* L201sendero.png in Resources */,
+				7FB2A5D1158A2C5B0009365F /* L202tapia.png in Resources */,
+				7FB2A5D2158A2C5B0009365F /* L203sannicolas.png in Resources */,
+				7FB2A5D3158A2C5B0009365F /* L204anahuac.png in Resources */,
+				7FB2A5D4158A2C5B0009365F /* L205universidad.png in Resources */,
+				7FB2A5D5158A2C5B0009365F /* L206heroes.png in Resources */,
+				7FB2A5D6158A2C5B0009365F /* L207regina.png in Resources */,
+				7FB2A5D7158A2C5B0009365F /* L208anaya.png in Resources */,
+				7FB2A5D8158A2C5B0009365F /* L209cuauthemoc.png in Resources */,
+				7FB2A5D9158A2C5B0009365F /* L210alameda.png in Resources */,
+				7FB2A5DA158A2C5B0009365F /* L211fundadores.png in Resources */,
+				7FB2A5DB158A2C5B0009365F /* L212padremier.png in Resources */,
+				7FB2A5DC158A2C5B0009365F /* L213geranzaragoza.png in Resources */,
+				7F6C81ED158A4FD2005A0348 /* placemark.png in Resources */,
+				7F6C81EE158A4FD2005A0348 /* title.png in Resources */,
+				7F24B461158B885B005BAEA7 /* user.png in Resources */,
+				7F24B464158B88D7005BAEA7 /* user01.png in Resources */,
+				7F24B466158B8E58005BAEA7 /* met01.png in Resources */,
+				7F24B468158B8F83005BAEA7 /* back.jpg in Resources */,
+				7F24B46A158B916A005BAEA7 /* title01.png in Resources */,
+				7F24B46C158B9189005BAEA7 /* carretera.png in Resources */,
+				7F24B46E158B91A0005BAEA7 /* bus.png in Resources */,
+				7F24B470158B9236005BAEA7 /* bos.png in Resources */,
+				7F24B476158B989A005BAEA7 /* estaciones.png in Resources */,
+				7F24B477158B989A005BAEA7 /* muestra.png in Resources */,
+				7F24B478158B989A005BAEA7 /* oculta.png in Resources */,
+				7F24B479158B989A005BAEA7 /* simbol.png in Resources */,
+				7F24B47A158B989A005BAEA7 /* ubicacion.png in Resources */,
+				7F24B47C158B9C8C005BAEA7 /* met012.png in Resources */,
+				7F24B480158B9DFA005BAEA7 /* ask01.png in Resources */,
+				7F24B481158B9DFA005BAEA7 /* oc01.png in Resources */,
+				7F24B482158B9DFA005BAEA7 /* walk01.png in Resources */,
+				7F24B484158BA4FD005BAEA7 /* inicio.png in Resources */,
+				7F24B486158BA6A2005BAEA7 /* contact.png in Resources */,
+				7F24B488158BA751005BAEA7 /* cont.png in Resources */,
+				7F24B48E158BA937005BAEA7 /* metrorrey_logo.png in Resources */,
+				7F24B490158BA96A005BAEA7 /* metrorreylg.png in Resources */,
+				7F24B492158BAB84005BAEA7 /* add.png in Resources */,
+				7F24B494158BAFC6005BAEA7 /* info.png in Resources */,
+				7F24B496158BB076005BAEA7 /* fipade.png in Resources */,
+				7F24B49D158BB710005BAEA7 /* des.png in Resources */,
+				7F24B4A1158BBF28005BAEA7 /* foto.jpg in Resources */,
+				7F24B4A9158BF3EF005BAEA7 /* icon.png in Resources */,
+				7F24B4AA158BF434005BAEA7 /* Default.png in Resources */,
+				7F0D7D2415DEB3740099D87E /* disClose copia.png in Resources */,
+				7F0D7D4715DEBD9E0099D87E /* 01expo.jpeg in Resources */,
+				7F0D7D4815DEBD9E0099D87E /* 02lerdo.jpeg in Resources */,
+				7F0D7D4915DEBD9E0099D87E /* 03eloy.jpeg in Resources */,
+				7F0D7D4A15DEBD9E0099D87E /* 04ygriega.jpeg in Resources */,
+				7F0D7D4B15DEBD9E0099D87E /* 05fundidora.jpeg in Resources */,
+				7F0D7D4C15DEBD9E0099D87E /* 06Felix.jpeg in Resources */,
+				7F0D7D4D15DEBD9E0099D87E /* 07golfo.jpeg in Resources */,
+				7F0D7D4E15DEBD9E0099D87E /* 08cuau.jpeg in Resources */,
+				7F0D7D4F15DEBD9E0099D87E /* 09central.jpeg in Resources */,
+				7F0D7D5015DEBD9E0099D87E /* 10edison.jpeg in Resources */,
+				7F0D7D5115DEBD9E0099D87E /* 11hospital.jpeg in Resources */,
+				7F0D7D5215DEBD9E0099D87E /* 12simon.jpeg in Resources */,
+				7F0D7D5315DEBD9E0099D87E /* 13mitras.jpeg in Resources */,
+				7F0D7D5415DEBD9E0099D87E /* 15penitenciaria.jpeg in Resources */,
+				7F0D7D5515DEBD9E0099D87E /* 16aztlan.jpeg in Resources */,
+				7F0D7D5615DEBD9E0099D87E /* 17unidadmodelo.jpeg in Resources */,
+				7F0D7D5715DEBD9E0099D87E /* 18sanberna.jpeg in Resources */,
+				7F0D7D5815DEBD9E0099D87E /* 19talleres.jpeg in Resources */,
+				7F0D7D5915DEBD9E0099D87E /* alfonso14.jpeg in Resources */,
+				7F0D7D5A15DEBD9E0099D87E /* 01sendero.jpeg in Resources */,
+				7F0D7D5B15DEBD9E0099D87E /* 02tapia.jpeg in Resources */,
+				7F0D7D5C15DEBD9E0099D87E /* 03sannico.jpeg in Resources */,
+				7F0D7D5D15DEBD9E0099D87E /* 04anahuac.jpeg in Resources */,
+				7F0D7D5E15DEBD9E0099D87E /* 05universidad.jpeg in Resources */,
+				7F0D7D5F15DEBD9E0099D87E /* 06niñosheroes.jpeg in Resources */,
+				7F0D7D6015DEBD9E0099D87E /* 07regina.jpeg in Resources */,
+				7F0D7D6115DEBD9E0099D87E /* 08anaya.jpeg in Resources */,
+				7F0D7D6215DEBD9E0099D87E /* 09alameda.jpeg in Resources */,
+				7F0D7D6315DEBD9E0099D87E /* 10fundadores.jpeg in Resources */,
+				7F0D7D6415DEBD9E0099D87E /* 11padremier.jpeg in Resources */,
+				7F0D7D6515DEBD9E0099D87E /* 12zaragoza.jpeg in Resources */,
+				7F0D7D6B15DEE9E10099D87E /* 01carr.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F12E20415890A1800768C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F12E21915890A1800768C5D /* main.m in Sources */,
+				7F12E21D15890A1800768C5D /* MetroNLAppDelegate.m in Sources */,
+				7F12E22315890A1800768C5D /* MetroNLViewController.m in Sources */,
+				7F12E22B15890B7700768C5D /* PrincipalViewController.m in Sources */,
+				7F12E23615890CDE00768C5D /* mapAnnotation.m in Sources */,
+				7F6C81E3158A3FA8005A0348 /* Mapann.m in Sources */,
+				7F6C81FD158A848F005A0348 /* EstacionesViewController.m in Sources */,
+				7F24B49B158BB10D005BAEA7 /* ContactoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F12E21515890A1800768C5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F12E21615890A1800768C5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F12E21E15890A1800768C5D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F12E21F15890A1800768C5D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F12E22415890A1800768C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F12E22515890A1800768C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F12E22715890A1800768C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metro NL/Metro NL-Prefix.pch";
+				INFOPLIST_FILE = "Metro NL/Metro NL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F12E22815890A1800768C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metro NL/Metro NL-Prefix.pch";
+				INFOPLIST_FILE = "Metro NL/Metro NL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F24B4A7158BF0A6005BAEA7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		7F24B4A8158BF0A6005BAEA7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fundacion Interdisciplinaria para el Desarrollo Empresarial S. de R.L. de C.V.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metro NL/Metro NL-Prefix.pch";
+				INFOPLIST_FILE = "Metro NL/Metro NL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3532776C-EF12-4C78-A584-53E95B5B0763";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F12E20215890A1800768C5D /* Build configuration list for PBXProject "Metro NL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F12E22415890A1800768C5D /* Debug */,
+				7F24B4A7158BF0A6005BAEA7 /* Distribution */,
+				7F12E22515890A1800768C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F12E22615890A1800768C5D /* Build configuration list for PBXNativeTarget "Metro NL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F12E22715890A1800768C5D /* Debug */,
+				7F24B4A8158BF0A6005BAEA7 /* Distribution */,
+				7F12E22815890A1800768C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F12E1FF15890A1800768C5D /* Project object */;
+}
